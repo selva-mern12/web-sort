@@ -32,12 +32,12 @@ const TeamReachForm = () => {
               <input
                 type={type}
                 placeholder={placeholder}
-                className="w-full bg-transparent border-b-2 border-red-500 focus:border-red-300 focus:outline-none py-2 placeholder-gray-300 text-white transition-all"
+                className="w-full bg-transparent pt-[80px] border-b-2 border-red-500 focus:border-red-300 focus:outline-none py-2 placeholder-gray-300 text-white transition-all"
               />
             </div>
           ))}
 
-          <div className="md:col-span-3 animate-zoom">
+          <div className="animate-zoom">
             <label className="block text-sm mb-2 font-semibold">Message</label>
             <textarea
               rows="4"
